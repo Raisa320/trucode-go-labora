@@ -7,5 +7,6 @@ func main() {
 	var ptrA *int = &a
 	fmt.Println("Valores iniciales: a=", a, ", b = ", b)
 	*ptrA, b = b, *ptrA
+
 	fmt.Println("Valores intercambiados: a=", a, ", b = ", b)
 }
