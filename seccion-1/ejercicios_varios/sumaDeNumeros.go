@@ -19,17 +19,21 @@ func main() {
 	fmt.Print("Ingrese un número: ")
 	var x int
 	fmt.Scanln(&x)
-	limites := []int{50, 50, 600, 800, 0}
 	descomponer := []int{0, 0, 0, 0, 0}
-	var aux int = x
+	segmentarValorPorRangos(x, descomponer)
+
+	fmt.Println(x, " = ", descomponer[0], " + ", descomponer[1], " + ", descomponer[2], " + ", descomponer[3], " + ", descomponer[4])
+}
+
+func segmentarValorPorRangos(x int, descomponer []int) {
+	limites := []int{50, 50, 600, 800, 0}
 	for i := 0; i < len(limites); i++ {
-		if aux-limites[i] > 0 && limites[i] != 0 {
-			aux -= limites[i]
+		if x-limites[i] > 0 && limites[i] != 0 {
+			x -= limites[i]
 			descomponer[i] = limites[i]
 		} else {
-			descomponer[i] = aux
-			break
+			descomponer[i] = x
+			return
 		}
 	}
-	fmt.Println(x, " = ", descomponer[0], " + ", descomponer[1], " + ", descomponer[2], " + ", descomponer[3], " + ", descomponer[4])
 }
