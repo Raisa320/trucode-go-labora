@@ -10,7 +10,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Arrays
     - Struct
     - Punteros
-
+    - Ejercicios Varios: Resolución de ejercicios dejados en el Slack 
 
 ## Authors
 
