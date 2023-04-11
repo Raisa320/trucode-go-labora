@@ -12,7 +12,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Punteros
     - Ejercicios Varios: Resolución de ejercicios dejados en el Slack
     - Switch_Repetidores: Ejercicios con bucle For y sentencia Switch
-
+    - Ejercicio Integrador: Ejercicio final donde se utiliza todo lo aprendido en la sección
 ## Authors
 
 - [Raisa Orellana](https://github.com/Raisa320)
