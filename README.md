@@ -15,6 +15,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Ejercicio Integrador: Ejercicio final donde se utiliza todo lo aprendido en la sección
 - **Sección 2** 🐱‍👓 : Estructuras
     - Mapas: uso de strings.Fields
+    - Ejercicio_BTC: Ejercicio individual de distribución de bitcoins
     - Pair Programming: Realizado el dia 12/04 sobre defer, panic, recover
 ## Authors
 
