@@ -16,6 +16,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
 - **Sección 2** 🐱‍👓 : Estructuras
     - Mapas: uso de strings.Fields
     - Ejercicio_BTC: Ejercicio individual de distribución de bitcoins
+    - Ejercicios Varios: Resolución de ejercicios dejados en el Slack
     - Pair Programming: Realizado el dia 12/04 sobre defer, panic, recover
 ## Authors
 
