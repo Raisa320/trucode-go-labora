@@ -19,7 +19,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Ejercicios Varios: Resolución de ejercicios dejados en el Slack
     - Pair Programming: Realizado el dia 12/04 sobre defer, panic, recover
     - Ejercicio Integrador: Agregando adicionales y modulos al ejercicio integrador de la sección 1
-    - Channels
+    - Channels: Pair Programming y ejercicios
     
 ## Authors
 
