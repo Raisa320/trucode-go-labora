@@ -57,7 +57,6 @@ func sendMessage(message Message, channelEmail, channelPush, channelSms chan Mes
 		go setMessageToChannel(message, channelEmail)
 		time.Sleep(time.Second)
 		go getMessageFromChannel(channelEmail, stopEmail)
-
 	}
 	if message.Type == "sms" {
 		go setMessageToChannel(message, channelSms)
@@ -104,10 +103,15 @@ func setMessageToChannel(message Message, chanel chan Message) {
 	chanel <- message
 }
 func getMessageFromChannel(c chan Message, pausa *bool) {
+	fmt.Println("1", *pausa)
 	for !*pausa {
 		select {
 		case mensaje := <-c:
-			fmt.Println("Mensaje procesado", mensaje, *pausa)
+			if *pausa {
+				c <- mensaje
+			} else {
+				fmt.Println("Mensaje procesado", mensaje, *pausa)
+			}
 		}
 	}
 }
