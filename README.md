@@ -21,7 +21,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Ejercicio Integrador: Agregando adicionales y modulos al ejercicio integrador de la sección 1
     - Channels: Pair Programming y ejercicios (Suma/Multiplación y de mensajeria)
     
-- **Sección 2**  : API
+- **Sección 3**  : API
     - Ejercicio-API: Implentacion de ejercicio Items
     
 ## Authors
