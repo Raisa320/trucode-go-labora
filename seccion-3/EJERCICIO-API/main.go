@@ -69,10 +69,12 @@ func main() {
 	//Tarea.
 	router.HandleFunc("/items", getItems).Methods("GET")
 
+	//buscar por id path paramas
 	router.HandleFunc("/items/{id}", getItem).Methods("GET")
 
-	//Más adelante.
+	//Buscar por nombre, query params
 	router.HandleFunc("/item", searchItem).Methods("GET")
+
 	router.HandleFunc("/items", createItem).Methods("POST")
 	router.HandleFunc("/items/{id}", updateItem).Methods("PUT")
 	router.HandleFunc("/items/{id}", deleteItem).Methods("DELETE")
