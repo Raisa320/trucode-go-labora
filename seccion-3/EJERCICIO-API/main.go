@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"math"
 	"net/http"
 	"strconv"
 	"strings"
@@ -67,6 +68,7 @@ func main() {
 
 	//Tarea.
 	router.HandleFunc("/items", getItems).Methods("GET")
+
 	router.HandleFunc("/items/{id}", getItem).Methods("GET")
 
 	//Más adelante.
@@ -85,8 +87,36 @@ func main() {
 
 func getItems(response http.ResponseWriter, request *http.Request) {
 	response.Header().Set("Content-Type", "application/json")
+	params := request.URL.Query() // page - itemsPerPage
+	page := params["page"]
+	itemsPerPage := params["itemsPerPage"]
+	if len(page) == 0 {
+		page = append(page, "1")
+	}
+	if len(itemsPerPage) == 0 {
+		itemsPerPage = append(itemsPerPage, "3")
+	}
+
+	pageIndex, _ := strconv.Atoi(page[0])
+	itemsPerPageInt, _ := strconv.Atoi(itemsPerPage[0])
+
+	var newListItems []Item
+
+	init := itemsPerPageInt * (pageIndex - 1)
+	limit := init + itemsPerPageInt
+	nroPage := float64(len(items)) / float64(itemsPerPageInt)
+	nroPage = math.Ceil(nroPage)
+
+	if pageIndex <= int(nroPage) {
+		if limit > len(items) {
+			newListItems = items[init:]
+		} else {
+			newListItems = items[init:limit]
+		}
+	}
+
 	// Función para obtener todos los elementos
-	json.NewEncoder(response).Encode(items)
+	json.NewEncoder(response).Encode(newListItems)
 }
 
 func searchItem(response http.ResponseWriter, request *http.Request) {
