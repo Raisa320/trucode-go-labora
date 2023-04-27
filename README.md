@@ -24,7 +24,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     
 - **Sección 3**  : API
     - Clase de API: Ejercicio visto en clase 
-    - Ejercicio-API: Implentacion de ejercicio Items
+    - Ejercicio-API: Implentacion de ejercicio Items (actualizado con adicional de pair programming)
     
     
 ## Authors
