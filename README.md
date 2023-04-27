@@ -23,7 +23,9 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Channels: Pair Programming y ejercicios (Suma/Multiplación y de mensajeria)
     
 - **Sección 3**  : API
+    - Clase de API: Ejercicio visto en clase 
     - Ejercicio-API: Implentacion de ejercicio Items
+    
     
 ## Authors
 
