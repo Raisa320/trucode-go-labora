@@ -17,6 +17,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Mapas: uso de strings.Fields
     - Ejercicio_BTC: Ejercicio individual de distribución de bitcoins
     - Ejercicios Varios: Resolución de ejercicios dejados en el Slack
+    - Gorutines Pratice: Ejercicios de practica de las gorutines (propios)
     - Pair Programming: Realizado el dia 12/04 sobre defer, panic, recover
     - Ejercicio Integrador: Agregando adicionales y modulos al ejercicio integrador de la sección 1
     - Channels: Pair Programming y ejercicios (Suma/Multiplación y de mensajeria)
