@@ -24,7 +24,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     
 - **Sección 3**  : API
     - Clase de API: Ejercicio visto en clase 
-    - Ejercicio-API: Implentacion de ejercicio Items (actualizado con adicional de pair programming)
+    - Ejercicio-API: Actualizaciones en nuevo Repositorio: https://github.com/Raisa320/API-GO-LABORA
     
     
 ## Authors
