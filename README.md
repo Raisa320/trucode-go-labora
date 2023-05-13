@@ -25,6 +25,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
 - **Sección 3**  : API
     - Clase de API: Ejercicio visto en clase 
     - Ejercicio-API: Actualizaciones en nuevo Repositorio: [API V1 GO ](https://github.com/Raisa320/API-V1-GO)
+    - Testing: Test Math y Ejercicio 1
     
     
 ## Authors
