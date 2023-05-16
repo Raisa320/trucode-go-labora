@@ -26,6 +26,10 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Clase de API: Ejercicio visto en clase 
     - Ejercicio-API: Actualizaciones en nuevo Repositorio: [API V1 GO ](https://github.com/Raisa320/API-V1-GO)
     - Testing: Test Math, Ejercicio 1, Ejercicio de rotacion de cadenas
+
+- **Sección 4**  :
+    - Testing: Test Math, Ejercicio 1, Ejercicio de rotacion de cadenas
+    - Race: Ejercicios de race conditions & mutex
     
     
 ## Authors
