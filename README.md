@@ -31,6 +31,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Testing: Test Math, Ejercicio 1, Ejercicio de rotacion de cadenas
     - Race: Ejercicios de race conditions & mutex
     - Funciones Modulares: Ejercicio de número perfecto y números amigos
+    - Transactions: Ejemplo de transacciones con GO
     
     
 ## Authors
