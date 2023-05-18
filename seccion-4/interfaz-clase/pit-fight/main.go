@@ -13,7 +13,7 @@ func main() {
 	var criminal figthers.Criminal = figthers.Criminal{BaseFigther: figthers.BaseFigther{Life: 22}}
 	var contenders []figthers.Contender = make([]figthers.Contender, 2)
 
-	randomValueBetweenOneAndZero := rand.Intn(2)
+	randomValueBetweenOneAndZero := rand.Intn(2) //0-1
 	contenders[randomValueBetweenOneAndZero] = &police
 	contenders[(randomValueBetweenOneAndZero+1)%2] = &criminal
 
