@@ -32,6 +32,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Race: Ejercicios de race conditions & mutex
     - Funciones Modulares: Ejercicio de número perfecto y números amigos
     - Transactions: Ejemplo de transacciones con GO
+    - Interfaz Clase Repaso: Ejercicio de minijuego de criminal/police
     
     
 ## Authors
