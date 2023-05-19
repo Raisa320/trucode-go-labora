@@ -33,6 +33,7 @@ Bootcamp de programación en GO, ejercicios de aplicación.
     - Funciones Modulares: Ejercicio de número perfecto y números amigos
     - Transactions: Ejemplo de transacciones con GO
     - Interfaz Clase Repaso: Ejercicio de minijuego de criminal/police
+    - CORS: Ejemplos de notion de los 2 tipos de cors
     
     
 ## Authors
