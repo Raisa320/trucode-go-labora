@@ -8,7 +8,7 @@ type Police struct {
 }
 
 func (p Police) ThrowAttack() int {
-	return rand.Intn(5)
+	return rand.Intn(10)
 }
 
 func (p *Police) RecieveAttack(intensity int) {
